@@ -1,5 +1,6 @@
 package com.example.learngitwithinas
 
+import android.net.Uri
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -53,4 +54,8 @@ fun send() {
 
 fun downloadYoutubeVideo(url: URL) {
     println("Download success.")
+}
+
+fun downloadYoutubeVideoSubtitle(url: Uri) {
+    println("Download youtube video subtitle successfully")
 }
