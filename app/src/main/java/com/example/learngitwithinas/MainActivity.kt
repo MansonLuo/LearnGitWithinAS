@@ -47,5 +47,6 @@ fun GreetingPreview() {
 
 fun send() {
     println("THIS IS CONTAINED IN MY SECOND COMMIT")
-    fucking you, bitch
+
+    a fucking error occurs.
 }
