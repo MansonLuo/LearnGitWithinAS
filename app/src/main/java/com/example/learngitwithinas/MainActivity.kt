@@ -44,3 +44,7 @@ fun GreetingPreview() {
         Greeting("Android")
     }
 }
+
+fun send() {
+    println("THIS IS CONTAINED IN MY SECOND COMMIT")
+}
