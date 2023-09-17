@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.learngitwithinas.ui.theme.LearnGitWithinASTheme
+import java.net.URL
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,4 +49,8 @@ fun GreetingPreview() {
 fun send() {
     println("THIS IS CONTAINED IN MY SECOND COMMIT")
     println("Message from Experimental branch")
+}
+
+fun downloadYoutubeVideo(url: URL) {
+    println("Download success.")
 }
